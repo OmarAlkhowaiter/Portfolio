@@ -52,17 +52,38 @@
   
   /* Hero section */
   #hero {
-    background-image: url('https://via.placeholder.com/1200x600');
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
-  }
+  /* background-image: url('https://via.placeholder.com/1200x600'); */
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative; /* Add position relative to the hero section */
+}
+
+#hero .avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 20%; /* Add top position of 50% */
+  left: 50%; /* Add left position of 50% */
+  transform: translate(-50%, -50%); /* Add transform to center the avatar */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#hero .avatar img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+  
   
   #hero h2 {
     font-size: 3rem;
