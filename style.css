@@ -1,0 +1,173 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Hero section */
+  #hero {
+    background-image: url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  #hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  #hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* About section */
+  #about {
+    padding: 4rem 2rem;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  #about p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+  }
+  
+  /* Portfolio section */
+  #portfolio {
+    padding: 4rem 2rem;
+  }
+  
+  #portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project {
+    background-color: #333;
+    padding: 2rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+  
+  /* Contact section */
+  #contact {
+    padding: 4rem 2rem;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  form label {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  form textarea {
+    height: 10rem;
+  }
+  
+  form button[type="submit"] {
+    background-color: #fff;
+    color: #222;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #ccc;
+  }
