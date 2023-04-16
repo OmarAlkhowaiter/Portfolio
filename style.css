@@ -52,10 +52,12 @@
     margin: 0 auto;
     padding: 2rem;
   }
+
+  
+
   
   /* Hero section */
   #hero {
-  /* background-image: url('https://via.placeholder.com/1200x600'); */
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -258,3 +260,20 @@
   form button[type="submit"]:hover {
     background-color: #ccc;
   }
+  
+
+  @media (max-width: 600px) {
+    body {
+      display: block;
+      text-align: center;
+    }
+  }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #hero .avatar {
+      width:150px;
+      height:150px;
+      top:10%;
+  }
+}
