@@ -104,6 +104,10 @@
   object-fit: cover;
 }
 
+a.btn {
+  color: white;
+}
+
   
   
   #hero h2 {
@@ -404,13 +408,13 @@
   }
   
   #about p {
-    font-size: 1.2rem;
+    font-size: 0.86rem;
     line-height: 1.8;
     text-align: justify;
+    margin-bottom: 2rem;
   }
   .gallery-item img {
     max-width: 120px;
     height: auto;
   }
-
 }
