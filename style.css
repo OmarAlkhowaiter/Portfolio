@@ -289,6 +289,44 @@
       text-align: center;
     }
   }
+  .hidden{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+  .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+
+  .gallery-item:nth-child(1) {    
+    transition-delay: 200ms;
+  }
+  .gallery-item:nth-child(2) {    
+    transition-delay: 400ms;
+  }
+  .gallery-item:nth-child(3) {    
+    transition-delay: 600ms;
+  }
+  .gallery-item:nth-child(4) {    
+    transition-delay: 800ms;
+  }
+  .gallery-item:nth-child(5) {    
+    transition-delay: 1000ms;
+  }
+  .gallery-item:nth-child(6) {    
+    transition-delay: 1200ms;
+  }
+  .gallery-item:nth-child(7) {    
+    transition-delay: 1400ms;
+  }
+  .gallery-item:nth-child(8) {    
+    transition-delay: 1600ms;
+  }
+
+
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
@@ -374,4 +412,5 @@
     max-width: 120px;
     height: auto;
   }
+
 }

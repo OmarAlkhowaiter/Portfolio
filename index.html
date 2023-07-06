@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
   <script src="https://kit.fontawesome.com/4b468a4223.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -23,7 +24,7 @@
     <ion-icon name="menu-outline" class="header__toggle" id="toggle-menu"></ion-icon>
   </header>
   <main>
-    <section id="hero">
+    <section class="hidden" id="hero">
         <div class="avatar">
           <img src="icons/avatar.jpg" alt="Avatar">
         </div>
@@ -31,61 +32,47 @@
         <p>Hi, I am Omar Alkhowaiter, nice to meet you...</p>
         <a href="#about" class="btn">Learn More</a>
       </section>
-    <section id="about">
+    <section class="hidden" id="about">
       <h2>About me</h2>
       <p>I am Omar Alkhowaiter, a college student in the College of Computer Science and Information Technology at Imam Abdulrahman bin Faisal University. Cybersecurity enthusiast.</p>
       <h3>Connect with Me</h3>
         <div class="social-icons">
-          <a href="https://www.linkedin.com/in/omar-alkhowaiter-45950624a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.linkedin.com/in/OmarAlkhowaiter" target="_blank"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://twitter.com/OmarAlkhowaiter" target="_blank"><i class="fab fa-twitter"></i></a>
           <a href="https://github.com/OmarAlkhowaiter" target="_blank"><i class="fab fa-github"></i></a>
         </div>
     </section>
     <!-- Skills -->
-    <section id="tools">
+    <section class="hidden" id="tools">
       <h2>Tools</h2>
       <div class="gallery">
-        <div class="gallery-item">
+        <div class="gallery-item hidden">
           <img src="icons/python.png" alt="Image 1">
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item hidden">
           <img src="icons/java.png" alt="Image 2">
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item hidden">
           <img src="icons/cpp.png" alt="Image 3">
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item hidden">
           <img src="icons/html.png" alt="Image 4">
       </div>
-      <div class="gallery-item">
+      <div class="gallery-item hidden">
         <img src="icons/css.png" alt="Image 5">
       </div>
-      <div class="gallery-item">
-        <img src="icons/mysql.png" alt="Image 6">
+      <div class="gallery-item hidden">
+        <img src="icons/javascript.svg" alt="Image 6">
+      </div>
+      <div class="gallery-item hidden">
+        <img src="icons/mysql.png" alt="Image 7">
+      </div>
+      <div class="gallery-item hidden">
+        <img src="icons/linux.svg" alt="Image 8">
       </div>
     </section>
-    <!-- <section id="portfolio"> -->
-      <!-- <h2>My work</h2> -->
-      <!-- <div class="project">
-        <img src="https://via.placeholder.com/400x300" alt="Project 1">
-        <h3>Project 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit, quam at lacinia pellentesque, velit velit faucibus risus, eget bibendum eros lorem ac turpis.</p>
-        <a href="#" class="btn">View project</a>
-      </div>
-      <div class="project">
-        <img src="https://via.placeholder.com/400x300" alt="Project 2">
-        <h3>Project 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit, quam at lacinia pellentesque, velit velit faucibus risus, eget bibendum eros lorem ac turpis.</p>
-        <a href="#" class="btn">View project</a>
-      </div>
-      <div class="project">
-        <img src="https://via.placeholder.com/400x300" alt="Project 3">
-        <h3>Project 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit, quam at lacinia pellentesque, velit velit faucibus risus, eget bibendum eros lorem ac turpis.</p>
-        <a href="#" class="btn">View project</a>
-      </div>
-    </section> -->
-    <section id="contact">
+
+    <section class="hidden" id="contact">
       <h2>Contact me</h2>
       <form action="https://formsubmit.co/OmarMAlkhowaiter@gmail.com" method="POST">
         <label for="name">Name</label>
@@ -98,11 +85,7 @@
       </form>
     </section>
   </main>
-  
-  <footer>
-    <p>&copy; 2023 My Portfolio</p>
-  </footer>
-  <script src="script.js"></script>
+    
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
