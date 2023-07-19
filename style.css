@@ -139,6 +139,12 @@ a.btn {
     text-align: justify;
   }
 
+  #about h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
   /* Social */
   .social-icons {
     display: flex;
@@ -414,6 +420,7 @@ a.btn {
     text-align: justify;
     margin-bottom: 2rem;
   }
+
   .gallery-item img {
     max-width: 120px;
     height: auto;
