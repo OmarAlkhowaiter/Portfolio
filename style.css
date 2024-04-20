@@ -193,6 +193,10 @@ a.btn {
     max-width: 150px;
     height: auto;
   }
+  .gallery-item-big img {
+    max-width: 250px;
+    height: auto;
+  }
   .gallery-item.reveal::before {
     content: "";
     position: absolute;
