@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/"
+  to = "https://linkedin.com/in/OmarAlkhowaiter"
+  status = 301
+  force = true
